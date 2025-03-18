@@ -2,7 +2,7 @@ name: Deploy IAC
 on:
   push:
     branches:
-      - "development"
+      - "master"
 jobs:
   infra_validate:
     runs-on: 'ubuntu-latest'
